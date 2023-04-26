@@ -5,7 +5,8 @@ body {
     background-color: #90E0EF;
 }
 
-#meu-nome {
+.meuNome {
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: bold;
 }
@@ -13,6 +14,9 @@ body {
 .descricao {
     font-family: sans-serif;
     font-style: italic;
+    position: absolute;
+    top: 35%;
+    left: 200px;
 }
 
 .resido {
@@ -23,6 +27,24 @@ body {
 ul {
     font-size: 1.5em;
 }
+
+#foto {
+    background-color: #0077B6;
+    float: left;
+    height: 280px;
+    padding: 10px;
+}
+
+.image-container {
+    height: 300px;
+    position: relative;
+}
+
+ul li:nth-child(odd){
+    background-color: aqua;
+}
+
+
 
 
 
